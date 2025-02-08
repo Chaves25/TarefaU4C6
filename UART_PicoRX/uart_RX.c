@@ -1,6 +1,3 @@
-/*
- * uart_RX.c 
- */
 
 #include <stdio.h>
 #include "pico/stdlib.h"

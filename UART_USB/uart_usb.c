@@ -1,18 +1,3 @@
-/*
- * Por: Wilton Lacerda Silva
- *
- * Utiliza a UART para controlar LEDs RGB.
- *
- * O teste foi feito utilizando a extensão do Wokwi Simulator:
- *
- * O funcionamento é simples, o código lê um caractere da UART e acende
- * um LED RGB de acordo com o caractere recebido. Por exemplo, se o caractere
- * 'r' for recebido, o LED vermelho é acionado. Se o caractere 'g' for recebido,
- * o LED verde é acionado. Se o caractere 'b' for recebido, o LED azul é acionado.
- *
- * Obs. Veja o consumo de CPU do seu PC na simulação.
- * No loop não há delay, então o código está sempre lendo a UART.
- */
 
 #include <stdio.h>
 #include "pico/stdlib.h"

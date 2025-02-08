@@ -1,20 +1,3 @@
-/*
- * Por: Wilton Lacerda Silva
- * 
- * Utiliza a UART0 para receber dados do usuário e enviar de volta
- * 
- * O código foi adaptado para o RP2040 (Pico) e utiliza a biblioteca
- * Pico SDK.
- * 
- * O teste foi feito utilizando a extensão do Wokwi Simulator:
- *  
- * O funcionamento é simples, o código lê um caractere da UART e envia
- * de volta para o usuário. Além disso, ele acende um LED RGB de acordo
- * com o caractere recebido. Por exemplo, se o caractere 'r' for recebido,
- * o LED vermelho é acionado. Se o caractere 'g' for recebido, o LED verde
- * é acionado. Se o caractere 'b' for recebido, o LED azul é acionado.
- * 
- */
 
 #include <stdio.h>
 #include "pico/stdlib.h"

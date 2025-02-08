@@ -1,16 +1,3 @@
-/*
- * Por: Wilton Lacerda Silva
- *    Comunicação serial com I2C
- *  
- * Uso da interface I2C para comunicação com o Display OLED
- * 
- * Estudo da biblioteca ssd1306 com PicoW na Placa BitDogLab.
- *  
- * Este programa escreve uma mensagem no display OLED.
- * 
- * 
-*/
-
 
 #include <stdlib.h>
 #include "pico/stdlib.h"

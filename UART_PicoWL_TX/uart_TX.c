@@ -1,24 +1,3 @@
-/* Por: Wilton Lacerda Silva
- * Data: 10/08/2021
- *        Estudo do protocolo de comunicação da UART
- *       Universal Asynchronous Receiver/Transmitter
- *
- * Utiliza a UART0 para enviar dados.
- *
- *
- * O funcionamento é dado assim: O programa envia uma mensagem pela UART0
- * quando o botão é pressionado.
- * A mensagem contém o valor atual de um contador.
- *
- * No Wokwi, foi utilizado um Analisador Lógico para 
- * verificar o sinal TX da UART0.
- * Informações sobre o analisador lógico podem ser encontradas em:	
- * https://wokwi.com/arduino/libraries/logic-analyzer
- * 
- * Um possível programa para fazer a análise do sinal TX é o PulseView.
- * Pode ser baixado em: https://sigrok.org/wiki/Downloads
- *
- */
 
 #include <stdio.h>
 #include "pico/stdlib.h"
